@@ -1,0 +1,401 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {height:100%;}
+body {
+    font-family: "MicrosoftYaHei","Microsoft YaHei","微软雅黑",STHeiti,SimSun,"宋体", SimHei, Arial,"Helvetica Neue", Helvetica, Arial, sans-serif;"";
+    background: #e7ecef url("/public/image/weichat-bg.png") no-repeat 100% 100%;
+    background-size: 100%;
+    font-size: 12px;
+    color: #535353;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+img{
+    border:none;
+}
+
+li{
+    list-style-type: none;
+}
+
+table{
+    border-collapse:collapse;
+}
+
+
+.table>tbody>tr>td {
+    border-top: none;
+    border-bottom: 1px solid #ddd;
+}
+
+.btn-link:hover{
+    text-decoration: none;
+}
+
+/*
+* home
+*/
+#header{
+    background: #ae4089;
+    height: 40px;
+}
+
+#header table td{
+    height: 40px;
+    font-size: 16px;
+    vertical-align: middle;
+}
+#header table{
+    width: 100%;
+}
+
+#header table a{
+    color: #fff;
+}
+/*
+* end home
+*/
+
+/*
+* other
+*/
+
+#location-list {
+    padding: 45px 20px;
+}
+
+.where-baby{
+    color: #535353;
+    font-size: 14px;
+    padding: 0 6px;
+    text-align: left;
+}
+.where-baby li{
+    margin-bottom: 26px;
+}
+
+.where-baby p{
+    margin: 0;
+}
+/*
+* end other
+*/
+
+/*
+* 学生表现页面
+*/
+.main {
+    padding: 30px 20px;
+}
+
+#review-list li {
+    margin-bottom: 40px;
+}
+
+#review-list .title{
+    font-size: 16px;
+    margin: 10px 0;
+}
+#review-list .detail{
+    font-size: 14px;
+
+}
+
+#review-list .teacher-info{
+    margin: 10px 0;
+    color: #1b9ac5;
+
+}
+
+/*
+* end 学生表现页面
+*/
+
+
+/*
+* 帐号信息
+*/
+#my-account-list{
+    padding-top: 40px;
+}
+
+#my-account-list ul:first-child{
+    border-top: 1px solid #a2a2a2;
+}
+
+#my-account-list li{
+
+    border-bottom: 1px solid #a2a2a2;
+    background: url("/public/image/slider-right-bg.png") no-repeat 95% 5px;
+    background-size: 20px 20px;
+}
+
+#my-account-list li a{
+    padding: 10px 30px ;
+    display: block;
+    color: #525355;
+    font-size: 16px;
+}
+/*
+* end 帐号信息
+*/
+
+
+
+/*
+* 登录
+*/
+
+#login {
+    font-size: 14px;
+}
+
+#login .text{
+    margin-bottom: 20px;
+}
+/*
+* end 登录
+*/
+
+
+
+
+/*
+* 购买课程
+*/
+#buyed-course .lesson-name{
+    height: 40px;
+    padding: 0 10px ;
+    line-height: 24px;
+    background: #3bb3c3 url("/public/image/lesson-bg.jpg") 100% 100% repeat-x;
+    font-size: 13px;
+    color: #fff;
+    margin-bottom: 16px;
+}
+#buyed-course li{
+    margin-bottom: 30px;
+}
+
+#buyed-course .article li{
+    margin-bottom: 0px;
+}
+
+#buyed-course p{
+    margin: 0;
+}
+
+/*
+* end 购买课程
+*/
+
+
+
+/*
+* 切换学生信息页面
+*/
+
+#choose-student{
+    font-size: 13px;
+}
+#choose-student .form{
+    margin-top: 55px;
+}
+#choose-student .form .form-group{
+    margin-bottom: 50px;
+}
+
+#choose-student .form .radio{
+    margin-bottom: 20px;
+}
+/*
+* end 切换学生信息页面
+*/
+
+
+
+/*
+* 学生课表
+*/
+#student-course {
+    padding-top: 25px;
+    font-size: 14px;
+}
+
+#student-course h3{
+    color: #ae4087;
+    padding: 0 20px;
+    margin-bottom: 16px;
+}
+
+#student-course .coursr-item {
+    margin-bottom: 40px;
+}
+
+#student-course .coursr-item li{
+    padding: 6px 20px;
+    border-top:  1px solid #a2a2a2;;
+}
+#student-course .coursr-item ul>:first-child {
+    border-top: 0;
+}
+/*
+* end 学生课表
+*/
+
+
+
+/*
+* 家长信息
+*/
+#patruarch-info {
+    font-size: 16px;
+    padding: 45px 0;
+    color: #535353;
+}
+#patruarch-info p{
+    margin: 10px 0;
+    padding: 0 20px ;
+}
+#patruarch-info .integration-list{
+    border: 1px solid #a2a2a2;
+    border-left: 0;
+    border-right: 0;
+    padding: 10px 20px;
+    margin: 20px 0;
+}
+#patruarch-info .integration-list td{
+    padding: 6px 0 ;
+}
+
+/*
+* end 家长信息
+*/
+
+
+
+
+
+/*
+* 学生信息
+*/
+#student-info {
+    font-size: 13px;
+    padding: 45px 0;
+}
+
+#student-info p{
+    margin: 10px 0;
+    padding: 0 20px ;
+}
+
+#student-info .line{
+    border-top: 1px solid #a2a2a2;
+    margin: 20px 0;
+}
+/*
+* end 学生信息
+*/
+
+
+
+
+
+/*
+* 接送系统
+*/
+
+
+
+
+.className {
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    border-radius: 8px;
+}
+
+.detailInfo {
+    font-size: 14px;
+    font-weight: bold;
+    color: #666;
+}
+
+.selector {
+    padding: 10px 0 20px 0;
+}
+
+.selector>select {
+    width: 100%;
+}
+
+.othersInput {
+    padding: 10px 0 20px 0;
+}
+
+.othersInput textarea  {
+    width: 100%;
+    height: 160px;
+    padding: 6px;
+    outline: none;
+    border: 1px solid #d7d7d7;
+}
+
+.confirmNote {
+    font-size: 14px;
+}
+
+.list-group-item > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 38px;
+}
+
+
+/*
+* end 接送系统
+*/
+
+
+
+
+/*
+* other
+*/
+
+
+/*
+* end other
+*/
+
+
+
+
+/*
+* other
+*/
+
+
+/*
+* end other
+*/
+
+
+
+
+/*
+* other
+*/
+
+
+/*
+* end other
+*/
